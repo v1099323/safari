@@ -847,6 +847,14 @@ body::after {
 }
 
 .slide-gallery__item-link img {
+  width: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slide-gallery__item-link webp {
+  width: 100%;
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
